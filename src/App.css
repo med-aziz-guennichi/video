@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/* Add this CSS to your stylesheet */
+.watermark {
+  display: none !important;
+}
+
+.leftwatermark {
+  display: none;
+}
+.leftwatermark {
+  left: 32px;
+  top: 32px;
+  background-position: center left;
+  background-color: blue;
+}
